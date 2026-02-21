@@ -1,0 +1,96 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Niharika Yeruva | Portfolio</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <!-- Font Awesome for icons -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css">
+
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+    <!-- Navbar -->
+    <nav>
+        <div class="logo">Niharika Yeruva</div>
+        <ul>
+            <li><a href="#about">About</a></li>
+            <li><a href="#projects">Projects</a></li>
+            <li><a href="#contact">Contact</a></li>
+        </ul>
+        <button id="theme-toggle">🌙</button>
+    </nav>
+
+    <!-- Hero Section -->
+    <section class="hero">
+        <img src="profile.jpg" alt="Niharika Yeruva" class="profile-img">
+
+        <h1>Hello, I'm <span id="typing"></span></h1>
+        <p>Frontend Developer | TypeScript | JavaScript</p>
+
+        <!-- Resume Download Buttons -->
+        <div class="resume-buttons">
+            <a href="resume.pdf" download class="btn">Download Resume (PDF)</a>
+            <a href="resume.docx" download class="btn secondary">Download Resume (Word)</a>
+        </div>
+
+        <!-- Social Icons -->
+        <div class="social-icons">
+            <a href="https://linkedin.com/in/yourprofile" target="_blank">
+                <i class="fab fa-linkedin"></i>
+            </a>
+            <a href="https://github.com/yourprofile" target="_blank">
+                <i class="fab fa-github"></i>
+            </a>
+        </div>
+    </section>
+
+    <!-- About Section -->
+    <section id="about" class="section">
+        <h2>About Me</h2>
+        <p>
+            I am a passionate web developer who loves building modern,
+            responsive, and interactive web applications.
+        </p>
+    </section>
+
+    <!-- Projects Section -->
+    <section id="projects" class="section dark">
+        <h2>Projects</h2>
+        <div class="projects">
+            <div class="card">
+                <h3>Project One</h3>
+                <p>Modern web application built with HTML, CSS & JS.</p>
+            </div>
+            <div class="card">
+                <h3>Project Two</h3>
+                <p>Responsive portfolio with animations.</p>
+            </div>
+            <div class="card">
+                <h3>Project Three</h3>
+                <p>Interactive UI components using JavaScript.</p>
+            </div>
+        </div>
+    </section>
+
+    <!-- Contact Section -->
+    <section id="contact" class="section">
+        <h2>Contact Me</h2>
+        <!-- Optional: Add your Formspree endpoint to send emails -->
+        <form action="https://formspree.io/f/xxxxabcd" method="POST">
+            <input type="text" name="name" placeholder="Your Name" required>
+            <input type="email" name="email" placeholder="Your Email" required>
+            <textarea name="message" placeholder="Your Message" required></textarea>
+            <button type="submit" class="btn">Send Message</button>
+        </form>
+    </section>
+
+    <footer>
+        © 2026 Niharika Yeruva. All Rights Reserved.
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+</html>
