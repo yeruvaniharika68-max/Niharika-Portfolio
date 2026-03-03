@@ -1,26 +1,10 @@
-// Dark / Light Mode Toggle
-const toggle = document.getElementById("theme-toggle");
-
-toggle.addEventListener("click", () => {
-    document.body.classList.toggle("dark-mode");
-
-    if (document.body.classList.contains("dark-mode")) {
-        toggle.textContent = "☀️";
-    } else {
-        toggle.textContent = "🌙";
-    }
-});
-
-// Typing Animation
-const text = "Niharika Yeruva";
-let index = 0;
-
-function typeEffect() {
-    if (index < text.length) {
-        document.getElementById("typing").textContent += text.charAt(index);
-        index++;
-        setTimeout(typeEffect, 100);
-    }
+function toggleDropdown() {
+    const menu = document.getElementById("resumeMenu");
+    menu.style.display = menu.style.display === "block" ? "block" : "block";
 }
 
-window.onload = typeEffect;
+window.onclick = function(e) {
+    if (!e.target.closest('.resume-dropdown')) {
+        document.getElementById("resumeMenu").style.display = "none";
+    }
+}
