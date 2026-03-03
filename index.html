@@ -1,155 +1,171 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-    <meta charset="UTF-8">
-    <title>Niharika Yeruva | Full Stack Python Developer</title>
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="style.css">
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Niharika Yeruva | Portfolio</title>
+
+<link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css" rel="stylesheet">
+<link rel="stylesheet" href="style.css">
 </head>
 <body>
 
-<!-- ===== NAVBAR ===== -->
 <header>
     <div class="logo">Niharika Yeruva</div>
     <nav>
         <a href="#home">Home</a>
         <a href="#about">About</a>
         <a href="#experience">Experience</a>
-        <a href="#skills">Skills</a>
+        <a href="#certifications">Certifications</a>
+        <a href="#education">Education</a>
         <a href="#contact">Contact</a>
     </nav>
 </header>
 
-<!-- ===== HERO SECTION ===== -->
+<!-- HERO -->
 <section id="home" class="hero">
-    <div class="hero-content">
-        <h3>Hello, I'm</h3>
-        <h1>Niharika Yeruva</h1>
-        <h2>Full Stack Python Developer</h2>
+<div class="hero-container">
 
-        <p>
-            8+ years of experience building scalable cloud-native applications 
-            using Python, FastAPI, Django, React, AWS and GenAI systems.
-        </p>
+<div class="hero-image">
+<img src="https://i.ibb.co/6RWcrtwj/your-image.jpg" alt="Profile">
+</div>
 
-        <!-- Resume Dropdown -->
-        <div class="resume-dropdown">
-            <button class="resume-btn" onclick="toggleDropdown()">
-                Download Resume <span class="arrow">&#9662;</span>
-            </button>
+<div class="hero-content">
+<h3>Hello, Myself</h3>
+<h1>Niharika Yeruva</h1>
+<h2>And I'm a <span>Full Stack Python Developer</span></h2>
 
-            <div class="resume-menu" id="resumeMenu">
-                <a href="assets/Niharika_Yeruva_Resume.pdf" download>
-                    Download as PDF
-                </a>
-                <a href="assets/Niharika_Yeruva_Resume.docx" download>
-                    Download as DOCX
-                </a>
-            </div>
-        </div>
-    </div>
+<p>
+Full Stack Python Developer with 8+ years of experience designing, building
+and scaling cloud-native enterprise applications.
+</p>
+
+<div class="social-icons">
+<a href="#"><i class="fab fa-linkedin-in"></i></a>
+<a href="#"><i class="fab fa-github"></i></a>
+<a href="#"><i class="fab fa-facebook-f"></i></a>
+<a href="#"><i class="fab fa-instagram"></i></a>
+</div>
+
+<div class="resume-dropdown">
+<button onclick="toggleDropdown()" class="resume-btn">
+Download Resume <i class="fa-solid fa-caret-down"></i>
+</button>
+<div class="resume-menu" id="resumeMenu">
+<a href="assets/Niharika_Yeruva_Resume.pdf" download>Download PDF</a>
+<a href="assets/Niharika_Yeruva_Resume.docx" download>Download DOCX</a>
+</div>
+</div>
+
+</div>
+</div>
 </section>
 
-<!-- ===== ABOUT ===== -->
+<!-- ABOUT -->
 <section id="about" class="about">
-    <h2>About Me</h2>
-    <p>
-        Full Stack Python Developer with expertise in backend engineering,
-        microservices, event-driven architectures, ML/NLP pipelines,
-        cloud-native deployments on AWS & GCP, and GenAI integrations.
-    </p>
+<div class="about-container">
+
+<div class="about-content">
+<h2>About <span>Me</span></h2>
+<p>
+Experienced in Python (FastAPI, Flask, Django), React, Angular,
+AWS, Kubernetes, ML/NLP, GenAI systems and enterprise cloud solutions.
+</p>
+</div>
+
+<div class="about-image">
+<img src="https://i.ibb.co/XZgcx8Qy/your-image.jpg" alt="About">
+</div>
+
+</div>
 </section>
 
-<!-- ===== EXPERIENCE ===== -->
-<section id="experience" class="experience-section">
-    <div class="section-header">
-        <h2>Work Experience</h2>
-        <p>My professional journey and key accomplishments</p>
-    </div>
+<!-- EXPERIENCE -->
+<section id="experience" class="section">
+<h2 class="section-title">Work Experience</h2>
 
-    <div class="timeline">
+<div class="experience-card">
+<h3>CTS Corporation – Full Stack Python Developer</h3>
+<span>March 2024 – Present | Elkhart, IN</span>
+<p>Manufacturing Operations & Quality Intelligence Platform using Django, FastAPI, AWS, ML models, CI/CD and Docker.</p>
+</div>
 
-        <div class="timeline-item">
-            <div class="timeline-dot"></div>
-            <div class="timeline-content">
-                <h3>Full Stack Python Developer</h3>
-                <h4>CTS Corporation</h4>
-                <span>March 2024 – Present</span>
-            </div>
-        </div>
+<div class="experience-card">
+<h3>Polaris – Full Stack Python Developer</h3>
+<span>Sep 2022 – Feb 2024 | Novi, MI</span>
+<p>Dealer Operations Management System using React, FastAPI, JWT APIs, async services and Docker deployments.</p>
+</div>
 
-        <div class="timeline-item">
-            <div class="timeline-dot"></div>
-            <div class="timeline-content">
-                <h3>Full Stack Python Developer</h3>
-                <h4>Polaris</h4>
-                <span>Sep 2022 – Feb 2024</span>
-            </div>
-        </div>
+<div class="experience-card">
+<h3>CoverMyMeds – Full Stack Python Developer</h3>
+<span>May 2021 – Aug 2022 | Columbus, OH</span>
+<p>Healthcare platform with Kafka event systems, RAG pipelines, GenAI integration and AWS services.</p>
+</div>
 
-        <div class="timeline-item">
-            <div class="timeline-dot"></div>
-            <div class="timeline-content">
-                <h3>Full Stack Python Developer</h3>
-                <h4>CoverMyMeds</h4>
-                <span>May 2021 – Aug 2022</span>
-            </div>
-        </div>
+<div class="experience-card">
+<h3>CipherLab – Full Stack Python Developer</h3>
+<span>Jan 2020 – Apr 2021 | Plano, TX</span>
+<p>Device Analytics & Automation using ML pipelines, Kafka streaming and Kubernetes.</p>
+</div>
 
-    </div>
+<div class="experience-card">
+<h3>Zepo – Software Developer Intern</h3>
+<span>June 2018 – Dec 2019 | Mumbai, India</span>
+<p>E-commerce management platform built using Python, Django and REST APIs.</p>
+</div>
+
 </section>
 
-<!-- ===== SKILLS ===== -->
-<section id="skills" class="skills-section">
-    <div class="section-header">
-        <h2>Technical Skills</h2>
-        <p>Technologies and tools I use to build scalable systems</p>
-    </div>
-
-    <div class="skills-container">
-
-        <div class="skill-card">
-            <h3>Backend</h3>
-            <div class="skill"><span>Python</span><span>95%</span>
-                <div class="progress"><div style="width:95%"></div></div>
-            </div>
-            <div class="skill"><span>Django</span><span>90%</span>
-                <div class="progress"><div style="width:90%"></div></div>
-            </div>
-            <div class="skill"><span>FastAPI</span><span>85%</span>
-                <div class="progress"><div style="width:85%"></div></div>
-            </div>
-        </div>
-
-        <div class="skill-card">
-            <h3>Frontend</h3>
-            <div class="skill"><span>React</span><span>88%</span>
-                <div class="progress"><div style="width:88%"></div></div>
-            </div>
-            <div class="skill"><span>JavaScript</span><span>85%</span>
-                <div class="progress"><div style="width:85%"></div></div>
-            </div>
-        </div>
-
-        <div class="skill-card">
-            <h3>DevOps & Tools</h3>
-            <div class="skill"><span>Docker</span><span>85%</span>
-                <div class="progress"><div style="width:85%"></div></div>
-            </div>
-            <div class="skill"><span>AWS</span><span>80%</span>
-                <div class="progress"><div style="width:80%"></div></div>
-            </div>
-        </div>
-
-    </div>
+<!-- CERTIFICATIONS -->
+<section id="certifications" class="section light">
+<h2 class="section-title">Certifications</h2>
+<div class="experience-card">
+<h3>AWS Certified Solutions Architect – Associate</h3>
+<p>Amazon Web Services</p>
+</div>
 </section>
 
-<!-- ===== CONTACT ===== -->
+<!-- EDUCATION -->
+<section id="education" class="section">
+<h2 class="section-title">Education</h2>
+<div class="experience-card">
+<h3>Master of Science – Information Technology</h3>
+<span>Clark University | December 2025</span>
+</div>
+</section>
+
+<!-- CONTACT -->
 <section id="contact" class="contact">
-    <h2>Contact</h2>
-    <p>Email: yeruvaniharika22@gmail.com</p>
-    <p>Phone: +1 508-667-0365</p>
+<h2>Contact Me</h2>
+
+<form action="https://formsubmit.co/yeruvaniharika68@gmail.com" method="POST">
+<input type="hidden" name="_captcha" value="false">
+<input type="hidden" name="_subject" value="New Portfolio Message!">
+
+<div class="input-row">
+<input type="text" name="name" placeholder="Full Name" required>
+<input type="email" name="email" placeholder="Email Address" required>
+</div>
+
+<div class="input-row">
+<input type="tel" name="phone" placeholder="Phone Number">
+<input type="text" name="subject" placeholder="Email Subject">
+</div>
+
+<textarea name="message" rows="6" placeholder="Your Message" required></textarea>
+<button type="submit" class="btn">Send Message</button>
+</form>
 </section>
+
+<footer>
+<div class="footer-social">
+<a href="#"><i class="fab fa-linkedin-in"></i></a>
+<a href="#"><i class="fab fa-github"></i></a>
+<a href="#"><i class="fab fa-facebook-f"></i></a>
+<a href="#"><i class="fab fa-instagram"></i></a>
+</div>
+<p>© 2026 Niharika Yeruva - All Rights Reserved</p>
+</footer>
 
 <script src="script.js"></script>
 </body>
